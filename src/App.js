@@ -12,6 +12,7 @@ import { Products } from "./pages/products/Products";
 import { PaymentOptions } from "./pages/payment-options/PaymentOptions";
 import { Setting } from "./pages/setting/Setting";
 import { Orders } from "./pages/orders/Orders";
+import MenuCards from "./pages/menu-cards/MenuCards";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="email-verify" element={<EmailVerify />} />
           <Route path="reset-password" element={<ResetPassword />} />
+          <Route path="menu- cards" element={<MenuCards />} />
 
           {/* private routs */}
           <Route path="register" element={<Registration />} />
